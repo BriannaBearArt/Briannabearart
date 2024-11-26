@@ -9,6 +9,14 @@ body {
    background-color: #b4acf0;
 }
 
+.p1 {
+   display: flex;
+   justify-content: center;
+   font-family: "Bricolage Grotesque", sans-serif;
+   color: #1c06c2;
+   font-size: 25px;
+}
+
 h2 {
    font-family: "Bricolage Grotesque", sans-serif;
    color: #1c06c2;
@@ -31,8 +39,9 @@ h3 {
 }
 
 p {
-   "Bricolage Grotesque", sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
    color:#0d0466;
+   font-size: 20px;
 }
 
 a.footer {
