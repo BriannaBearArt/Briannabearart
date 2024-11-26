@@ -1,34 +1,45 @@
+/* The universal selctor */
+* {
+   /* reset our code, set up our website */
+   /* going over margins and padding wednesday */
+   margin: 0;
+   padding: 0;
+   font-family: "Bricolage Grotesque", sans-serif;
+}
+
 header  img {
     display: block;
     margin-left: auto;
     margin-right: auto;
  background-color: #7A73B2;
 }
-
+/* Website style */
 body {
    background-color: #b4acf0;
 }
 
-.p1 {
-   display: flex;
-   justify-content: center;
-   font-family: "Bricolage Grotesque", sans-serif;
-   color: #1c06c2;
-   font-size: 25px;
-}
-
 h2 {
    font-family: "Bricolage Grotesque", sans-serif;
-   color: #1c06c2;
+   font-style: oblique;
+   color: #0d0466;
    background-color: #968ce2;
    font-size: 20px;
+   line-height: normal;
+   text-align: center;
+   margin: 20px;
+   padding: 20px;
+   border: 1px;
 }
 
-ul {
+ul li {
    font-family: "Bricolage Grotesque", sans-serif;
    font-style: normal; 
-   color: #0d0466;
-   font-size: 14px;
+   font-weight: bold;
+   font-variant: normal;
+   line-height: 3;
+   color: #1c06c2;
+   font-size: 16px;
+   text-align: center;
 }
 
 h3 {
@@ -36,17 +47,65 @@ h3 {
    color: #1c06c2;
    background-color: #968ce2;
    font-size: 20px;
+   text-align: center;
+   margin: 20px;
+   padding: 20px;
+   border:1px;
 }
 
 p {
-  font-family: "Bricolage Grotesque", sans-serif;
-   color:#0d0466;
+   font-family: "Bricolage Grotesque", sans-serif;
+   color: #1c06c2;
    font-size: 20px;
+   text-align: center;
+   margin: 20px;
+   padding: 20px;
+   border:1px;
 }
 
-a.footer {
+.recent-projects {
+   font-family: "Bricolage Grotesque", sans-serif;
+   color: #1c06c2;
+   font-size: 20px;
+   text-align: center;
+   font-style: normal; 
+   font-weight: bold;
+   font-variant: normal;
+   line-height: 1.6;
+   margin: 20px;
+   padding: 15px;
+   border: 1px;
+
+}
+
+
+.footer {
    font-family: "Bricolage Grotesque", sans-serif;
    color: #1c06c2;
    background-color: #968ce2;
    font-size: 20px;
+   text-align: center;
+   margin: 20px;
+   padding: 15px;
+   border: 1px;
+
+}
+
+.p  {
+text-align: center;
+font-family: "Bricolage Grotesque", sans-serif;
+color: #1c06c2;
+background-color: #968ce2;
+font-style: normal; 
+font-weight: bold;
+font-variant: normal;
+}
+
+.p a:hover {
+   text-decoration: underline;
+   font-size: 15px;
+}
+
+p a:visited {
+   color: white
 }
