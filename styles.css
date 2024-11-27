@@ -1,7 +1,5 @@
-/* The universal selctor */
 * {
    /* reset our code, set up our website */
-   /* going over margins and padding wednesday */
    margin: 0;
    padding: 0;
    font-family: "Bricolage Grotesque", sans-serif;
@@ -18,6 +16,7 @@ body {
    background-color: #b4acf0;
 }
 
+/* Whos is brianna bear blog */
 h2 {
    font-family: "Bricolage Grotesque", sans-serif;
    font-style: oblique;
@@ -31,6 +30,7 @@ h2 {
    border: 1px;
 }
 
+/* About me blog section - lists */
 ul li {
    font-family: "Bricolage Grotesque", sans-serif;
    font-style: normal; 
@@ -63,6 +63,14 @@ p {
    border:1px;
 }
 
+.blogsection {
+   font-size: 20px;
+   text-align: center;
+   margin: 20px;
+   padding: 20px;
+   border:1px;
+}
+
 .recent-projects {
    font-family: "Bricolage Grotesque", sans-serif;
    color: #1c06c2;
@@ -75,7 +83,6 @@ p {
    margin: 20px;
    padding: 15px;
    border: 1px;
-
 }
 
 
@@ -88,7 +95,6 @@ p {
    margin: 20px;
    padding: 15px;
    border: 1px;
-
 }
 
 .p  {
