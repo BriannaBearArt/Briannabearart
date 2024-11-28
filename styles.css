@@ -11,12 +11,92 @@ header  img {
     margin-right: auto;
     background-color:#cfcbee;;
 }
-/* Website style */
 
 body {
    background-color: #b4acf0;
+   margin: 0px;
 }
 
+main {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+h1 {
+   font-family: "Bricolage Grotesque", sans-serif;
+   text-align: center;
+
+}
+
+.navbar ul {
+   list-style-type: none;
+   background-color: #7A73B2
+   padding: 50px;
+   margin: 20px;
+   overflow: hidden;
+}
+
+.navbar a {
+   background-color: #7A73B2;
+   color: white;
+   text-decoration: none ;  /*this removes the under line*/
+   padding: 15px;
+   display: block;
+   text-align: center;
+}
+
+.navbar a:hover {
+   background-color: #b4acf0;
+   font-family: "Bricolage Grotesque", sans-serif;
+   font-style: normal; 
+   font-weight: bold;
+   font-variant: normal;
+   line-height: 3;
+   color: #0d0466;
+}
+
+.navbar li{
+   float:inline-start;
+ 
+}
+
+/* COLUMN ONE INFORMATION HERE! */
+/* used this site to help me put my website into two columns https://blog.hubspot.com/website/html-columns */
+.Column1 {
+ float: left;
+ width: 60%;
+ background-color: #cfcbee;
+ margin: 0px;
+ padding: 0px;
+ border: solid 2px;
+ border-color: #7A73B2;
+}
+
+
+.introduction {
+   font-family: "Bricolage Grotesque", sans-serif;
+   font-style: normal; 
+   font-weight: bold;
+   font-variant: normal;
+   line-height: 3;
+   color: #1c06c2;
+   font-size: 16px;
+   background-color:#cfcbee;
+   margin: 20px;
+   padding: 25px;
+   border: solid 3px;
+   border-color: #7A73B2;
+}
+
+.recent-project {
+   background-color:#cfcbee;
+   margin: 20px;
+   padding: 15px;
+   border: solid 2px;
+   border-color: #7A73B2;
+}
+
+/* introduction blog piece 1 */
 h2 {
    font-family: "Bricolage Grotesque", sans-serif;
    font-style: oblique;
@@ -30,16 +110,38 @@ h2 {
    border: 5px;
 }
 
-/* About me blog section - lists */
-ul li {
-   font-family: "Bricolage Grotesque", sans-serif;
-   font-style: normal; 
-   font-weight: bold;
-   font-variant: normal;
-   line-height: 3;
-   color: #1c06c2;
-   font-size: 16px;
-   text-align: center;
+.introduction, .recent-project {
+   background-color: #cfcbee;
+   margin: 20px;
+   padding: 20px;
+}
+
+/* used this blog to help me center my image because the intial way shown in class wasn't working for me https://blog.hubspot.com/website/center-an-image-in-html */
+.meandbabyimg {
+   display: flex;
+   justify-content: center;
+}
+
+.orangeshirtdesign {
+   display: flex;
+   justify-content: center;
+}
+
+/* COLUMN 2 INFORMATION HERE */
+.Column2 {
+   float: right;
+   width: 30%;
+   background-color: #cfcbee;
+   margin: 0px;
+   padding: 0px;
+   border: solid 2px;
+   border-color: #7A73B2;
+}
+
+.camasimg {
+   display: block;
+   width: 60%;
+   margin: auto;
 }
 
 h3 {
@@ -56,38 +158,15 @@ h3 {
 p {
    font-family: "Bricolage Grotesque", sans-serif;
    color: #1c06c2;
-   font-size: 20px;
+   font-size: 18px;
    text-align: center;
    margin: 20px;
    padding: 20px;
    border:1px;
 }
 
-.follow-me-link {
-   box-align: center;
-   background-color:#7A73B2;
-   height: auto;
-   width: auto;
-   border: solid 3px;
-   border-color: #7A73B2;
-}
 
-.introduction {
-   background-color:#cfcbee;
-   margin: 20 px;
-   padding: 15px;
-   border: solid 3px;
-   border-color: #7A73B2;
-}
-
-.recent-project {
-   background-color:#cfcbee;
-   margin: 20px;
-   padding: 15px;
-   border: solid 3px;
-   border-color: #7A73B2;
-}
-
+/* This section in the 2nd column at the top */
 .aboutblog {
    background-color:#cfcbee;
    margin: 20px;
@@ -96,6 +175,7 @@ p {
    border-color: #7A73B2;
 }
 
+/* This is the in the 2nd column at the bottom */
 .follow-me {
    background-color:#cfcbee;
    margin: 20px;
@@ -110,17 +190,11 @@ p {
    background-color: #968ce2;
    font-size: 20px;
    text-align: center;
+   background-color:#b4acf0;
    margin: 20px;
    padding: 15px;
-   border: 1px;
-}
-
-.linktreefooter {
-   background-color:#cfcbee;
-   margin: 20px;
-   padding: 25px;
-   border: solid 3px;
-   border-color: #7A73B2;
+   background: none repeat scroll 0 0 #b4acf0;
+   clear: both;
 }
 
 .p  {
