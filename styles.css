@@ -181,6 +181,7 @@ p {
    padding: 25px;
    border: solid 3px;
    border-color: #7A73B2;
+   line-height: 2;
 }
 
 /* This is the in the 2nd column at the bottom */
